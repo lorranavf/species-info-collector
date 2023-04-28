@@ -1,4 +1,5 @@
-# Species Info Collector: A Python Function for Collecting Taxonomic Information based on ete3 package
+# Species Info Collector: 
+## A Python Function for Collecting Taxonomic Information based on ete3 package
 This repository contains one Python script: taxonomy.py
 
 The function get_taxonomy_info retrieves taxonomy information from NCBI Taxonomy database for a given species. It returns a Pandas DataFrame with columns for the species name, order, family, and subfamily.
