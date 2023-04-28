@@ -11,7 +11,7 @@ The function then extracts the order, family, and subfamily information from the
 
 Finally, the function creates a dictionary with the taxonomy information for each species and uses it to create a Pandas DataFrame with the species name, order, family, and subfamily as columns. The DataFrame is returned as output.
 
-## Requirement
+## Requirements
 To ue de taxonomy.py script you need to have Python 3.x installed, along with the following Python modules:
 
 - re
