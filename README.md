@@ -14,6 +14,6 @@ Finally, the function creates a dictionary with the taxonomy information for eac
 ## Requirements
 To use de taxonomy.py script you need to have Python 3.x installed, along with the following Python modules:
 
-- re
 - os
 - pandas
+- ete3
