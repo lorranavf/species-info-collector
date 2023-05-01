@@ -11,6 +11,14 @@ The function then extracts the order, family, and subfamily information from the
 
 Finally, the function creates a dictionary with the taxonomy information for each species and uses it to create a Pandas DataFrame with the species name, order, family, and subfamily as columns. The DataFrame is returned as output.
 
+To call this function:
+```python
+from taxonomy import get_taxonomy_info
+species = ['specie1', specie2']
+# If it is the first time, update_taxonomy will be set to True, which will download the Taxonomy database from NCBI
+df_tax = get_taxonomy_info(species, update_taxonomy = True)
+```
+
 ## Requirements
 To use de taxonomy.py script you need to have Python 3.x installed, along with the following Python modules:
 
